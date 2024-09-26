@@ -1,0 +1,31 @@
+h1{
+    display: inline;
+    color: #BF28F3;
+    font-family: copperplate gothic medium,forte , magneto,  algerian ;
+}
+
+span{
+    font-size: 50px;
+    color: blueviolet;
+    font-family:  bankGothic Md BT, EngraversGothic BT,;
+}
+
+.dp{
+    width: 170px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.salutation{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+  
+  
