@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Sharafath Ahammed V">
-    <meta name="keywords" content="Sharafath, my, Ahammed, v, Sharafath Ahammed V, Sharafath Ahammed, SHARAFATH, AHAMMMED, SHARAFATH AHAMMMED V, SHARAFATH AHAMMMED">
-    <meta name="description" content="Sharafath Ahammed V's web it contains his about his education, skill, experience, works.There is his rasume">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="images/new.svg"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sharafath Ahammed V" />
+    <meta
+      name="keywords"
+      content="Sharafath, my, Ahammed, v, Sharafath Ahammed V, Sharafath Ahammed, SHARAFATH, AHAMMMED, SHARAFATH AHAMMMED V, SHARAFATH AHAMMMED"
+    />
+    <meta
+      name="description"
+      content="Sharafath Ahammed V's web it contains his about his education, skill, experience, works.There is his rasume"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="images/new.svg" />
     <title>Sharafath Ahammed V</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-    </header>
-    <main>
-        <div class="salutation">
-            <img class="dp" src="images/new.svg" >
-            <h1>
-                <span>Hello World!</span><br>It's me Sharafath
-            </h1>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader"></div>
+
+    <div class="main-content">
+      <header>
+        <div class="head">
+          <h1>
+            <a href="https://sharafath07.github.io/My-Portfolio/">Sharafath</a>
+          </h1>
+          <nav>
+            <div>
+              <a onclick="scrollToSection('home')" href="#home">Home</a>
+            </div>
+            <div><a href="#about">About</a></div>
+            <div><a href="#resume">Resume</a></div>
+            <div><a href="#portfolio">Portfolio</a></div>
+            <div><a href="#services">Service</a></div>
+            <div><a href="#contact">Contact</a></div>
+          </nav>
         </div>
-    </main>
+        <div class="divider1"></div>
+      </header>
 
-    <footer>
+      <main>
+        <div id="home">
+          <div class="salutation">
+            <img class="dp" src="images/new.svg" />
+            <h1><span>Hello World!</span><br />It's me Sharafath.</h1>
+          </div>
+          <button href="#about">
+            About Me <img src="icons/down-arrow.svg" alt=" " />
+          </button>
+        </div>
 
-    </footer>
-    
+        <div id="about">
+          <h2><span>ABOUT</span><br />Let me introduce myself.</h2>
+          <p>
+            Welcome! I’m passionate about web development and web design, and
+            I’m currently studying in Plus 2 in Computer Science. With a growing
+            knowledge of HTML, CSS, JavaScript, React, and C++, I love creating
+            efficient and innovative web solutions. I also enjoy staying ahead
+            in the tech world, exploring smart gadgets, and finding ways to
+            simplify everyday tasks, allowing more time for creativity and
+            growth.
+          </p>
+        </div>
+
+        <div id="resume"></div>
+
+        <div id="portfolio"></div>
+
+        <div id="services"></div>
+
+        <div id="contact"></div>
+      </main>
+
+      <footer></footer>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
