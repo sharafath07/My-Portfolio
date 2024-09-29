@@ -2,8 +2,8 @@ window.addEventListener("load", function () {
     const loadingScreen = document.querySelector(".loader");
     const mainContent = document.querySelector(".main-content");
   
-    loadingScreen.style.display = "none"; // Hide the loading screen
-    mainContent.style.display = "block"; // Show the main content
+    loadingScreen.style.display = "none";
+    mainContent.style.display = "block";
   });
   
   function scrollToSection(id) {

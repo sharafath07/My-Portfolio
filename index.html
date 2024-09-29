@@ -26,14 +26,12 @@
             <a href="https://sharafath07.github.io/My-Portfolio/">Sharafath</a>
           </h1>
           <nav>
-            <div>
-              <a onclick="scrollToSection('home')" href="#home">Home</a>
-            </div>
-            <div><a href="#about">About</a></div>
-            <div><a href="#resume">Resume</a></div>
-            <div><a href="#portfolio">Portfolio</a></div>
-            <div><a href="#services">Service</a></div>
-            <div><a href="#contact">Contact</a></div>
+            <div onclick="scrollToSection('home')">Home</div>
+            <div onclick="scrollToSection('about')">About</div>
+            <div onclick="scrollToSection('resume')">Resume</div>
+            <div onclick="scrollToSection('portfolio')">Portfolio</div>
+            <div onclick="scrollToSection('services')">Service</div>
+            <div onclick="scrollToSection('contact')">Contact</div>
           </nav>
         </div>
         <div class="divider1"></div>
@@ -45,7 +43,7 @@
             <img class="dp" src="images/new.svg" />
             <h1><span>Hello World!</span><br />It's me Sharafath.</h1>
           </div>
-          <button href="#about">
+          <button onclick="scrollToSection('about')">
             About Me <img src="icons/down-arrow.svg" alt=" " />
           </button>
         </div>
@@ -63,7 +61,44 @@
           </p>
         </div>
 
-        <div id="resume"></div>
+        <div id="resume">
+          <div class="second-section">
+            <h2>RESUME</h2>
+            <div class="info-list">
+              <li>
+                <strong>FULL NAME:</strong><br />
+                <span>Sharafath Ahammed V</span>
+              </li>
+              <li>
+                <strong>DATE OF BIRTH:</strong><br />
+                <span>January 6, 2007</span>
+              </li>
+              <li>
+                <strong>HIGH SCHOOL:</strong><br />
+                <span
+                  >completed SSLC with full A+ from<a href="https://uhhss.com/"
+                    >UHHS School, Chaliyam</a
+                  ></span
+                >
+              </li>
+              <li>
+                <strong>HIGHER SECONDARY:</strong><br />
+                <span
+                  >Completed higher secondary in computer science with 94%
+                  marks</span
+                >
+              </li>
+              <li>
+                <strong>EMAIL:</strong><br />
+                <span>sharafathahammed112@gmail.com</span>
+              </li>
+              <li>
+                <strong>PHONE:</strong><br />
+                <span>(+91)9947303726</span>
+              </li>
+            </div>
+          </div>
+        </div>
 
         <div id="portfolio"></div>
 
