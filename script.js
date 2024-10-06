@@ -34,3 +34,15 @@ window.addEventListener("load", function () {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
   }
+
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for reaching out! We will get back to you shortly.');
+
+    document.getElementById('name').value = ''
+    document.getElementById('email').value = ''
+    document.getElementById('subject').value = ''
+    document.getElementById('message').value = ''
+
+  });
+  

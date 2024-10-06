@@ -31,7 +31,6 @@
             <div onclick="scrollToSection('about')">About</div>
             <div onclick="scrollToSection('resume')">Resume</div>
             <div onclick="scrollToSection('portfolio')">Portfolio</div>
-            <div onclick="scrollToSection('services')">Service</div>
             <div onclick="scrollToSection('contact')">Contact</div>
           </nav>
         </div>
@@ -151,25 +150,68 @@
             </div>
             
             <div class="button">
-              <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-              <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+              <button class="next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+              <button class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
             </div>
-           
-            <!-- <img src="portfolio images/BMI.png" alt="">
-            <img src="portfolio images/blackjack.png" alt="">
-            <img src="portfolio images/calculator.png" alt="">
-            <img src="portfolio images/counter.png" alt="">
-            <img src="portfolio images/rock-paper-scissor.png" alt="">
-            <img src="portfolio images/todo-list.png" alt=""> -->
+
           </div>
         </div>
 
-        <div id="services"></div>
+        <div id="contact">
+          <div class="contact-section">
+            <h2>CONTACT</h2>
+            <p>I'd love to hear from you!</p>
 
-        <div id="contact"></div>
+              <form id="contact-form">
+                <div class="form-group">
+                  <input type="text" id="name" placeholder="Name" required />
+                </div>
+
+                <div class="form-group">
+                  <input type="email" id="email" placeholder="Email" required />
+                </div>
+ 
+                <div class="form-group">
+                  <input type="text" id="subject" placeholder="Subject" required />
+                </div>
+          
+                <div class="form-group">
+                  <textarea id="message" placeholder="Message" rows="4" required></textarea>
+                </div>
+          
+                <button type="submit" class="submit-btn">Send</button>
+              </form>
+
+              
+          </div>
+          
+        </div>
       </main>
 
-      <footer></footer>
+      <footer>
+            <h2>Contact Information</h2>
+            <div class="info">
+              <div class="info-item">
+                <img src="./icons/email.svg" alt="Email: "><p> sharafathahammed112@gmail.com</p>
+              </div>
+              <div class="info-item">
+                <img src="./icons/phone.svg" alt="Phone: "><p> +91 99473 03726</p>
+              </div>
+              <div class="info-item">
+                <img src="./icons/address.svg" alt="Address: "><p> Vakkadavu, Kadalundi PO,Kozhikode, Kerala, India <br> 673302 </p>
+              </div>
+            </div>
+            
+      
+            <div class="social-icons">
+              <a href="https://github.com/sharafath07" target="_blank"><i class="fab fa-2x fa-github" style="height: 50px;"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
+              <a href="https://www.instagram.com/sharafath_v/" target="_blank"><i class="fab fa-2x fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/sharafath-ahammed-v-82318929b/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="script.js"></script>
