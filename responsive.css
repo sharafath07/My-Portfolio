@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) {
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+@media  screen and (max-width: 767px) {
+  header{
+    height: 50px;
+  }
+  header .divider1{
+    top: 50px;
+  }
+  #portfolio .container{
+    width: 319.8px;
+    height: 154px;
+  }
+  #portfolio .container .slide .item{
+    width: 50px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  #portfolio .container .slide .item:nth-child(3){
+    left: 50%;
+    opacity: 0;
+  }
+  #portfolio .container .slide .item:nth-child(4){
+    left: calc(50% + 40px);
+    opacity: 0;
+  }
+  #portfolio .container .slide .item:nth-child(5){
+    left: calc(50% + 80px);
+    opacity: 0;
+  }
+  #portfolio .container .slide .item:nth-child(6){
+    left: calc(50% + 120px);
+    opacity: 0;
+  }
+  #portfolio .container .slide .item .content{
+    left: 15px;
+  }
+  #portfolio .container .slide .item .content .name{
+    font-size: 20px;
+  }
+  #portfolio .container .slide .item .content button{
+    padding: 5px 5px;
+    font-size: 7.5px;
+  }
+  #portfolio .container .button{
+    bottom: 7.5px;
+  }
+  #portfolio .container .button button{
+    width: 15;
+    height: 10;
+  }
+  footer{
+    height: 100vh;
+    justify-content: stretch;
+  }
+  footer .info{
+    flex-direction: column;
+  }
+  footer .info .info-item{
+    border: none;
+    flex-basis: 50px;
+    padding: 30px;
+  }
+  footer .info .info-item:nth-child(2){  
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+}

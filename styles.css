@@ -159,8 +159,8 @@ main {
   height: 100vh;
   width: 100%;
   text-align: center;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 #home .salutation {
@@ -267,7 +267,7 @@ main {
 
 #portfolio h2{
   position: absolute;
-  top: 125px;
+  top: 100px;
   font-size: x-large;
   line-height: 50px;
   color: #7a007a;
@@ -280,7 +280,7 @@ main {
 
 #portfolio .container{
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 639.6px;
@@ -439,7 +439,8 @@ background-size: contain;
 
 #contact form input,
 #contact form textarea{
-  width: 400px;
+  max-width: 500px;
+  min-width: 200px;
   border: none;
   margin-bottom: 20px;
   border-bottom: 1px solid #ff7003;
@@ -487,7 +488,6 @@ footer h2{
 footer .info{
   display: flex;
   flex-direction: row;
-  
 }
 
 footer .info .info-item{
@@ -517,16 +517,4 @@ footer .social-icons a{
 
 footer .social-icons a:hover{
   color: white;
-}
-
-@media screen and (min-width: 1024px) {
-  
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  
-}
-
-@media  screen and (max-width: 767px) {
-  
 }
