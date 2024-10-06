@@ -9,12 +9,13 @@
     />
     <meta
       name="description"
-      content="Sharafath Ahammed V's web it contains his about his education, skill, experience, works.There is his rasume"
+      content="Sharafath Ahammed V's web it contains his portfolio, education details, skills, experiences, work, resume etc..."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image" href="images/new.svg" />
     <title>Sharafath Ahammed V</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="loader"></div>
@@ -40,11 +41,11 @@
       <main>
         <div id="home">
           <div class="salutation">
-            <img class="dp" src="images/new.svg" />
+            <img alt=" " class="dp" src="images/new.svg" />
             <h1><span>Hello World!</span><br />It's me Sharafath.</h1>
           </div>
           <button onclick="scrollToSection('about')">
-            About Me <img src="icons/down-arrow.svg" alt=" " />
+            About Me <img alt=" " src="icons/down-arrow.svg" alt=" " />
           </button>
         </div>
 
@@ -99,7 +100,68 @@
         </div>
 
         <div id="portfolio">
+          
           <h2><span>PORTFOLIO</span><br />Check Out Some of My Works</h2>
+          <div class="container">
+            <div class="slide">
+
+              <div class="item" style="background: url(./portfolio-images/blackjack.png);">
+                <div class="content">
+                  <div class="name">blackjack</div>
+                  <button onclick="location.href='https://github.com/sharafath07/blackjack'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/blackjack/'">Explore</button>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(./portfolio-images/BMI.png);">
+                <div class="content">
+                  <div class="name">BMI Calculator</div>
+                  <button onclick="location.href='https://github.com/sharafath07/BMI-calculator'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/BMI-calculator/'">Explore</button>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(./portfolio-images/calculator.png);">
+                <div class="content">
+                  <div class="name">Calculator</div>
+                  <button onclick="location.href='https://github.com/sharafath07/Calculator'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/Calculator/'">Explore</button>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(./portfolio-images/counter.png);">
+                <div class="content">
+                  <div class="name">Counter</div>
+                  <button onclick="location.href='https://github.com/sharafath07/Counter-App'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/Counter-App/'">Explore</button>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(./portfolio-images/rock-paper-scissor.png);">
+                <div class="content">
+                  <div class="name">Rock Paper Scissor</div>
+                  <button onclick="location.href='https://github.com/sharafath07/Rock-paper-scissor'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/Rock-paper-scissor/'">Explore</button>
+                </div>
+              </div>
+              <div class="item" style="background-image: url(./portfolio-images/todo-list.png);">
+                <div class="content">
+                  <div class="name">To-Do List</div>
+                  <button onclick="location.href='https://github.com/sharafath07/Todo-App'">Detail</button>
+                  <button onclick="location.href='https://sharafath07.github.io/Todo-App/'">Explore</button>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="button">
+              <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+              <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+           
+            <!-- <img src="portfolio images/BMI.png" alt="">
+            <img src="portfolio images/blackjack.png" alt="">
+            <img src="portfolio images/calculator.png" alt="">
+            <img src="portfolio images/counter.png" alt="">
+            <img src="portfolio images/rock-paper-scissor.png" alt="">
+            <img src="portfolio images/todo-list.png" alt=""> -->
+          </div>
         </div>
 
         <div id="services"></div>
