@@ -33,6 +33,7 @@ window.addEventListener("load", function () {
   function scrollToSection(id) {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
+    console.log(document.getElementById('check').value);    
   }
 
   document.getElementById('contact-form').addEventListener('submit', function(e) {

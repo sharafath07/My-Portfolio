@@ -1,17 +1,43 @@
-@media screen and (min-width: 1024px) {
-  
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   
 }
 
 @media  screen and (max-width: 767px) {
   header{
-    height: 50px;
+    height: 80px;
+    z-index: 1;
+  }
+  header .head .checkbtn{
+    display: block;
+    order: 1;
+  }
+  header .head nav{
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    padding-bottom: 100px;
+  } 
+  header .head nav div{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+  }
+  header .head #check:checked ~ nav{
+    left: 0;
   }
   header .divider1{
-    top: 50px;
+    top: 80px;
+    z-index: 1;
   }
   #portfolio .container{
     width: 319.8px;
