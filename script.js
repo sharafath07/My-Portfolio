@@ -28,6 +28,7 @@ window.addEventListener("load", function () {
   
     loadingScreen.style.display = "none";
     mainContent.style.display = "block";
+    loadingScreen.style.opacity = 0;
   });
   
   function scrollToSection(id) {
@@ -47,3 +48,13 @@ window.addEventListener("load", function () {
 
   });
   
+
+function anime() {
+  const button = document.querySelector('.msg');
+
+    button.classList.add("anime");
+
+    button.addEventListener("animationend", function() {
+        button.classList.remove("anime");
+    }, { once: true }); 
+}
