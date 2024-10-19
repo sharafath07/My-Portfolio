@@ -29,6 +29,15 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+.load{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(20px);
+  z-index: 2;
+}
 
 .loader {
   width: 65px;
@@ -442,6 +451,10 @@ main {
   opacity: 0;
   animation: animate 1s ease-in-out 1 forwards;
   margin-bottom: 20px;
+  transition: 1s ease;
+}
+#portfolio .container .slide .item .content .name:hover{
+text-shadow: #000000 2px 2px 2px;
 }
 
 #portfolio .container .slide .item .content button{
@@ -449,7 +462,7 @@ main {
   border: none;
   cursor: pointer;
   opacity: 0;
-  transition: 0.8s ease-in;
+  transition: 0.8s ease;
   animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
 

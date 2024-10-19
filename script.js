@@ -23,7 +23,7 @@ document.addEventListener('keydown', function(event){
 })
 
 window.addEventListener("load", function () {
-    const loadingScreen = document.querySelector(".loader");
+    const loadingScreen = document.querySelector(".load");
     const mainContent = document.querySelector(".main-content");
   
     loadingScreen.style.display = "none";
