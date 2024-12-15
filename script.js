@@ -1,6 +1,6 @@
 let next = document.querySelector('.next');
 let prev = document.querySelector('.prev');
-let portfolio = document.querySelector('#portfolio')
+let portfolio = document.querySelector('#portfolio');
 
 next.addEventListener('click', function(){
   let items = document.querySelectorAll('.item')
@@ -26,6 +26,7 @@ window.addEventListener("load", function () {
     const loadingScreen = document.querySelector(".load");
     const mainContent = document.querySelector(".main-content");
   
+    document.body.classList.remove('no-scroll');
     loadingScreen.style.display = "none";
     mainContent.style.display = "block";
     loadingScreen.style.opacity = 0;
@@ -57,4 +58,15 @@ function anime() {
     button.addEventListener("animationend", function() {
         button.classList.remove("anime");
     }, { once: true }); 
+}
+
+function sendMail(){
+  let parms = {
+    name : document.getElementById('name').value,
+    email : document.getElementById('email').value,
+    subject : document.getElementById('subject').value,
+    message : document.getElementById('message').value
+  }
+
+  emailjs.send("service_0h7lwhh", "template_h7uponr", parms).then(alert('Email sent!!'))
 }

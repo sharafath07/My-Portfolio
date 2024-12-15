@@ -17,8 +17,19 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "baxtb79KHDWTjpB8L",
+          });
+      })();
+    </script>
   </head>
-  <body>
+  <body class="no-scroll">
+    
     <div class="load">
       <div class="loader"></div>
     </div>
@@ -187,7 +198,7 @@
                   <textarea id="message" placeholder="Message" rows="4" required></textarea>
                 </div>
           
-                <button type="submit" class="submit-btn" onclick="anime()"><span class="msg"></span>Send</button>
+                <button type="submit" class="submit-btn" onclick="anime(); sendMail();"><span class="msg"></span>Send</button>
               </form>
         </div>
       </main>
