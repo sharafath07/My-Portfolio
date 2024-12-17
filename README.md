@@ -45,10 +45,10 @@ This portfolio is designed to provide:
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Portfolio Homepage](https://via.placeholder.com/800x400.png?text=Portfolio+Homepage+Screenshot)
+![Portfolio Homepage](images/Home.png)
 
 ### 📦 Projects Section
-![Projects Section](https://via.placeholder.com/800x400.png?text=Projects+Showcase)
+![Projects Section](images/project-section.png)
 
 ---
 
@@ -95,9 +95,9 @@ Contributions are welcome! If you have ideas for improvements or new features, f
 
 I’d love to hear from you! Reach out through:
 
-- 📧 **Email**: sharafath@example.com
+- 📧 **Email**: sharafathahammed112@gmail.com
 - 🐙 **GitHub**: [Sharafath07](https://github.com/sharafath07)
-- 💼 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- 💼 **LinkedIn**: [Sharafath Ahammed V](https://linkedin.com/in/your-profile)
 
 ---
 
