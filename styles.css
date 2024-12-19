@@ -106,7 +106,7 @@ header {
 
 header .head h1 {
   margin: 0;
-  font-family: copperplate gothic medium, "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 10px;
   margin-left: 5px;
   letter-spacing: 2px;
@@ -219,7 +219,7 @@ header .divider1 {
   display: block;
   font-size: 30px;
   color: #bf28f3;
-  font-family: copperplate gothic medium, forte, magneto, algerian;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #home span {

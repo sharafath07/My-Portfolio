@@ -36,19 +36,7 @@ window.addEventListener("load", function () {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
     console.log(document.getElementById('check').value);    
-  }
-
-  document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Thank you for reaching out! We will get back to you shortly.');
-
-    document.getElementById('name').value = ''
-    document.getElementById('email').value = ''
-    document.getElementById('subject').value = ''
-    document.getElementById('message').value = ''
-
-  });
-  
+  }  
 
 function anime() {
   const button = document.querySelector('.msg');
@@ -61,12 +49,34 @@ function anime() {
 }
 
 function sendMail(){
-  let parms = {
-    name : document.getElementById('name').value,
-    email : document.getElementById('email').value,
-    subject : document.getElementById('subject').value,
-    message : document.getElementById('message').value
-  }
 
-  emailjs.send("service_0h7lwhh", "template_h7uponr", parms).then(alert('Email sent!!'))
+  if (document.getElementById('name').value === '' || document.getElementById('email').value === '' || document.getElementById('subject').value === '' || document.getElementById('message').value === '' ){
+
+    if(document.getElementById('name').value === ''){
+      alert('Fill your name...');
+    }else if(document.getElementById('email').value === ''){
+      alert('Fill your email...');
+    }else if(document.getElementById('subject').value === ''){
+      alert('Write the subject...');
+    }else if(document.getElementById('message').value === ''){
+      alert('Write the message...');
+    }
+
+  }else{
+
+    let parms = {
+      name : document.getElementById('name').value,
+      email : document.getElementById('email').value,
+      subject : document.getElementById('subject').value,
+      message : document.getElementById('message').value
+    }
+  
+    emailjs.send("service_0h7lwhh", "template_h7uponr", parms).then(alert('Email sent!!'))
+  
+      document.getElementById('name').value = ''
+      document.getElementById('email').value = ''
+      document.getElementById('subject').value = ''
+      document.getElementById('message').value = ''
+  }
+  
 }

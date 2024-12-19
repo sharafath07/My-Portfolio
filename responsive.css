@@ -1,5 +1,7 @@
 @media screen and (min-width: 1023px) {
-  
+  header .head nav {
+    grid-template-columns: 100px 100px 100px 100px 100px;
+  }
 }
 
 @media  screen and (max-width: 767px) {
