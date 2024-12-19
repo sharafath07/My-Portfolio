@@ -70,6 +70,8 @@ function sendMail(){
       subject : document.getElementById('subject').value,
       message : document.getElementById('message').value
     }
+
+    anime()
   
     emailjs.send("service_0h7lwhh", "template_h7uponr", parms).then(alert('Email sent!!'))
   
