@@ -106,7 +106,7 @@ header {
 
 header .head h1 {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 10px;
   margin-left: 5px;
   letter-spacing: 2px;
@@ -150,10 +150,9 @@ header .head nav div {
 }
 
 header nav div:hover {
-  font-size: larger;
   color: black;
   background-color: white;
-  transition: 0.75s;
+  transition: 0.75s ease;
 }
 
 header .head #check {
@@ -219,7 +218,7 @@ header .divider1 {
   display: block;
   font-size: 30px;
   color: #bf28f3;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #home span {
