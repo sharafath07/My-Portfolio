@@ -101,11 +101,7 @@ I’d love to hear from you! Reach out through:
 
 ---
 
-## 📜 License
 
-This project is open-source and licensed under the [MIT License](LICENSE).
-
----
 
 🙏 Thank you for visiting my portfolio! 😊
 
