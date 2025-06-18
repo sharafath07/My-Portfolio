@@ -669,6 +669,7 @@ footer .social-icons a{
   color: #000;
   margin: 0 10px;
   cursor: pointer;
+  height: fit-content;
   transition: 0.5;
 }
 
