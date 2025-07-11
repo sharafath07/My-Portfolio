@@ -5,9 +5,16 @@
 }
 
 @media  screen and (max-width: 767px) {
+  body{
+    margin: auto;
+  }
   header{
+    position: fixed;
     height: 80px;
     z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   header .head .checkbtn{
     display: block;
@@ -15,7 +22,7 @@
   }
   header .head nav{
     position: fixed;
-    width: 100%;
+    width: 71%;
     height: calc(100vh - 80px);
     background: rgba(137, 43, 226, 0.5);
     backdrop-filter: blur(10px);
@@ -27,6 +34,7 @@
     left: -100%;
     text-align: center;
     transition: all 0.5s;
+    scroll-behavior: unset;
     padding-bottom: 100px;
   } 
   header .head nav div{
@@ -84,8 +92,7 @@
     height: 10;
   }
   footer{
-    height: 100vh;
-    justify-content: stretch;
+    height: 85vh;
   }
   footer .info{
     flex-direction: column;

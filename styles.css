@@ -111,6 +111,7 @@ header .head h1 {
   margin-left: 5px;
   letter-spacing: 2px;
   display: inline;
+  padding-left: 20px;
 }
 
 header .head h1 a {
